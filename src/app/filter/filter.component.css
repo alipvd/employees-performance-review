@@ -1,0 +1,11 @@
+/deep/ .mat-form-field{
+  width: 100%;
+}
+input::placeholder{
+  color: #999999;
+  text-align: right;
+}
+input{
+  color: #333;
+  text-align: right;
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "firstName": "علی",
+    "lastName": "عابدی",
+    "nationalCode": 21312315433,
+    "totalPresentsHour": 12313,
+    "avgEntranceTime": 930,
+    "avgExitTime": 1614,
+    "employeeProduct": 214
+  },
+  {
+    "firstName": "محمد",
+    "lastName": "محمدی",
+    "nationalCode": 95872315333,
+    "totalPresentsHour": 18913,
+    "avgEntranceTime": 910,
+    "avgExitTime": 1604,
+    "employeeProduct": 414
+  },
+  {
+    "firstName": "حسین",
+    "lastName": "حسینی",
+    "nationalCode": 658223715,
+    "totalPresentsHour": 10913,
+    "avgEntranceTime": 900,
+    "avgExitTime": 1634,
+    "employeeProduct": 144
+  },
+  {
+    "firstName": "حسین",
+    "lastName": "نجفی",
+    "nationalCode": 5582727415,
+    "totalPresentsHour": 9013,
+    "avgEntranceTime": 1105,
+    "avgExitTime": 1304,
+    "employeeProduct": 54
+  },
+  {
+    "firstName": "سعید",
+    "lastName": "علیزاده",
+    "nationalCode": 7585734775,
+    "totalPresentsHour": 4013,
+    "avgEntranceTime": 1025,
+    "avgExitTime": 1723,
+    "employeeProduct": 100
+  },
+  {
+    "firstName": "محمد",
+    "lastName": "باقری",
+    "nationalCode": 6283234555,
+    "totalPresentsHour": 113,
+    "avgEntranceTime": 925,
+    "avgExitTime": 1753,
+    "employeeProduct": 500
+  },
+  {
+    "firstName": "حامد",
+    "lastName": "صابری",
+    "nationalCode": 799654555,
+    "totalPresentsHour": 713,
+    "avgEntranceTime": 835,
+    "avgExitTime": 1620,
+    "employeeProduct": 330
+  },
+  {
+    "firstName": "پرهام",
+    "lastName": "پرهامی",
+    "nationalCode": 959654555,
+    "totalPresentsHour": 377,
+    "avgEntranceTime": 933,
+    "avgExitTime": 1500,
+    "employeeProduct": 99
+  },
+  {
+    "firstName": "ابراهیم",
+    "lastName": "ابراهیمی",
+    "nationalCode": 189654555,
+    "totalPresentsHour": 977,
+    "avgEntranceTime": 733,
+    "avgExitTime": 1730,
+    "employeeProduct": 599
+  }
+]

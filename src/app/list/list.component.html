@@ -1,0 +1,74 @@
+<table mat-table [dataSource]="dataSource" matSort>
+
+  <!-- firstName Column -->
+  <ng-container matColumnDef="firstName">
+    <th mat-header-cell
+        *matHeaderCellDef
+        mat-sort-header> نام </th>
+    <td mat-cell
+        *matCellDef="let employee"> {{employee.firstName}} </td>
+  </ng-container>
+
+  <!-- lastName Column -->
+  <ng-container matColumnDef="lastName">
+    <th mat-header-cell
+        *matHeaderCellDef
+        mat-sort-header> نام خانوادگی </th>
+    <td mat-cell
+        *matCellDef="let employee"> {{employee.lastName}} </td>
+  </ng-container>
+
+  <!-- nationalCode Column -->
+  <ng-container matColumnDef="nationalCode">
+    <th mat-header-cell
+        *matHeaderCellDef
+        mat-sort-header> کد ملی </th>
+    <td mat-cell
+        *matCellDef="let employee"> {{employee.nationalCode}} </td>
+  </ng-container>
+
+  <!-- totalPresentsHour Column -->
+  <ng-container matColumnDef="totalPresentsHour">
+    <th mat-header-cell
+        *matHeaderCellDef
+        mat-sort-header>مجموع ساعت حضور کارمند در ماه</th>
+    <td mat-cell
+        *matCellDef="let employee"> {{employee.totalPresentsHour}} </td>
+  </ng-container>
+
+  <!-- avgEntranceTime Column -->
+  <ng-container matColumnDef="avgEntranceTime">
+    <th mat-header-cell
+        *matHeaderCellDef
+        mat-sort-header>میانیگن ساعت ورود روزانه در ماه</th>
+    <td mat-cell
+        *matCellDef="let employee"> {{employee.avgEntranceTime}} </td>
+  </ng-container>
+
+
+  <!-- avgExitTime Column -->
+  <ng-container matColumnDef="avgExitTime">
+    <th mat-header-cell
+        *matHeaderCellDef
+        mat-sort-header>میانیگن ساعت خروج روزانه در ماه</th>
+    <td mat-cell
+        *matCellDef="let employee"> {{employee.avgExitTime}} </td>
+  </ng-container>
+
+  <!-- employeeProduct Column -->
+  <ng-container matColumnDef="employeeProduct">
+    <th mat-header-cell
+        *matHeaderCellDef
+        mat-sort-header>تعداد محصولات تولید شده توسط هر کارمند</th>
+    <td mat-cell
+        *matCellDef="let employee"> {{employee.employeeProduct}} </td>
+  </ng-container>
+
+  <tr mat-header-row
+      *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row
+      *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+<mat-paginator #paginator
+               [pageSize]="5"
+               [pageSizeOptions]="[5, 10]"></mat-paginator>
