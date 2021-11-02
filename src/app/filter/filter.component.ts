@@ -22,5 +22,4 @@ export class FilterComponent implements OnInit {
 
     // console.log('filter ' , this.searchValue);
   }
-
 }

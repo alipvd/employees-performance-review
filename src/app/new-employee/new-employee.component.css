@@ -1,0 +1,11 @@
+h2{
+  text-align: right;
+}
+mat-dialog-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+mat-dialog-actions{
+  justify-content: space-evenly;
+}

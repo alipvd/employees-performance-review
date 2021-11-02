@@ -1,11 +1,19 @@
-/deep/ .mat-form-field{
+/deep/ .ng-tns-c35-0{
   width: 100%;
 }
 input::placeholder{
   color: #999999;
   text-align: right;
 }
+.up-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  /*grid-template-columns: 70px 1fr;
+  grid-template-rows: 40px;
+  align-items: center;*/
+}
 input{
   color: #333;
   text-align: right;
 }
+

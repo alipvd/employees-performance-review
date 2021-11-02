@@ -1,0 +1,35 @@
+<h2 mat-dialog-title>افزودن عمکلرد کارمند جدید</h2>
+<mat-dialog-content class="mat-typography">
+  <mat-form-field appearance="legacy">
+    <mat-label>نام</mat-label>
+    <input matInput [(ngModel)]="employee.firstName">
+  </mat-form-field>
+  <mat-form-field appearance="legacy">
+    <mat-label>نام خانوادگی</mat-label>
+    <input matInput  [(ngModel)]="employee.lastName">
+  </mat-form-field>
+  <mat-form-field appearance="legacy">
+    <mat-label>کد ملی</mat-label>
+    <input matInput  [(ngModel)]="employee.nationalCode">
+  </mat-form-field>
+  <mat-form-field appearance="legacy">
+    <mat-label>مجموع ساعت حضور کارمند در ماه</mat-label>
+    <input matInput  [(ngModel)]="employee.totalPresentsHour">
+  </mat-form-field>
+  <mat-form-field appearance="legacy">
+    <mat-label>میانیگن ساعت ورود روزانه در ماه</mat-label>
+    <input matInput  [(ngModel)]="employee.avgEntranceTime">
+  </mat-form-field>
+  <mat-form-field appearance="legacy">
+    <mat-label>میانیگن ساعت خروج روزانه در ماه</mat-label>
+    <input matInput  [(ngModel)]="employee.avgExitTime">
+  </mat-form-field>
+  <mat-form-field appearance="legacy">
+    <mat-label>تعداد محصولات تولید شده توسط هر کارمند</mat-label>
+    <input matInput  [(ngModel)]="employee.employeeProduct">
+  </mat-form-field>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button mat-dialog-close color="warn" (click)="onNoClick()">لغو عملیات</button>
+  <button mat-button cdkFocusInitial color="primary" (click)="addNew()">اضافه کردن</button>
+</mat-dialog-actions>

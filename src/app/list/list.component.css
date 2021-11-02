@@ -2,7 +2,8 @@ table {
   width: 100%;
 }
 
-th, td {
+th,
+td {
   text-align: center !important;
 }
 /*
@@ -10,7 +11,22 @@ th, td {
   flex-direction: row-reverse !important;
 }
 */
-/deep/ .mat-paginator-navigation-previous{
+/deep/ .mat-paginator-navigation-previous {
   order: 1;
 }
 
+/deep/ .mat-input-element,
+/deep/ .mat-form-field-label {
+  text-align: right !important;
+}
+
+button[mat-button] {
+  padding: 0;
+  font-size: 30px;
+  background: #F5F5F5;
+  height: 100%;
+}
+button[mat-button] span {
+  display: block;
+  margin: -10px;
+}
