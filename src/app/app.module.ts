@@ -18,6 +18,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import {MatDialogModule} from '@angular/material/dialog';
 import { NewEmployeeComponent } from './new-employee/new-employee.component';
 import {MatButtonModule} from '@angular/material/button';
+import { PaginationComponent } from './pagination/pagination.component';
+import {CdkTableModule} from '@angular/cdk/table';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,7 @@ import {MatButtonModule} from '@angular/material/button';
     ListComponent,
     FilterComponent,
     NewEmployeeComponent,
+    PaginationComponent,
   ],
   imports: [
     BrowserModule,
@@ -41,6 +44,9 @@ import {MatButtonModule} from '@angular/material/button';
     ReactiveFormsModule,
     MatDialogModule,
     MatButtonModule
+  ],
+  exports:[
+    CdkTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

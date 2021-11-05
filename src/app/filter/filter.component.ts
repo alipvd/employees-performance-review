@@ -18,8 +18,8 @@ export class FilterComponent implements OnInit {
 
   filterData(searchValue: any){
     this.searchEvent.emit(searchValue);
-      // this.dataSource.filter = this.searchValue;
+    // this.dataSource.filter = this.searchValue;
 
-    // console.log('filter ' , this.searchValue);
+    console.log('filter ' , this.searchValue);
   }
 }
